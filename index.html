@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+       background-color: #d8d8d8;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        min-height: 90vh;
+    }
+    .sum{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    .procent{
+        justify-content: center;
+        background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+        width: 300px;
+        height: 400px;
+        color:white;
+        border-radius: 10%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .circle{
+        border-radius: 50%;
+        background-color: hsl(252, 100%, 67%);
+        padding: 10%;
+        height: 100px;
+        width: 100px;
+        background: linear-gradient(hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    }
+    .red{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: rgb(255, 226, 226);
+        color:#ff5556;
+        padding: 10px;
+        margin-bottom: 13px;
+        border-radius: 10px;
+        width: 150px;
+    }
+    .yellow{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(249, 249, 212);
+        color:#ffb21e;
+        padding: 10px;
+        margin-bottom: 13px;
+        border-radius: 10px;
+        width: 150px;
+    }
+    .green{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(201, 255, 201);
+        color: #01bb8f;
+        padding: 10px;
+        margin-bottom: 13px;
+        border-radius: 10px;
+        width: 150px;
+    }
+    .purple{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background-color: rgb(194, 200, 253);
+        color: #1025d7;
+        padding: 10px;
+        margin-bottom: 13px;
+        border-radius: 10px;
+        width: 150px;
+    }
+    .botton{
+        background-color: rgb(57, 57, 57);
+        border-radius: 20%;
+    }
+    .end{
+        background-color: #3c3c3c;
+        color: white;
+        width: 150px;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+</style>
+<body>
+  <div class="container">
+    <div class="procent">
+      <h2>Your Result</h2>
+      <div class="circle">
+        <h1>76</h1>
+      <span>of 100</span>
+      </div>
+      <h3>Great</h3>
+      <p>  You scored higher than 65%<br>of the people who have taken<br> these tests.</p>
+    </div>
+    <div class="sum">
+      <h3>Summary</h3>
+      <button class="red">
+        <img src="assets/images/icon-reaction.svg" width="">
+        <span>Reaction</span>
+        <span>80 / 100</span>
+      </button>
+      <button class="yellow">
+        <img src="assets/images/icon-memory.svg" width="">
+        <span>Memory</span>
+        <span>92 / 100</span>
+      </button>
+      <button class="green">
+        <img src="assets/images/icon-verbal.svg" width="">
+        <span>Verbal</span>
+        <span>61 / 100</span>
+      </button>
+      <button class="purple">
+        <img src="assets/images/icon-visual.svg" width="">
+        <span>Visual</span>
+        <span>72 / 100</span>
+        <button class="end">Continue</button>
+      </button>
+      </div>
+    </div>
+</body>
+</html>
